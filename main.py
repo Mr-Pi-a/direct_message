@@ -42,9 +42,8 @@ while True:
     else:
         print("ERROR!!!")
 
-    text_sent = input("\n\033[95mENTER THE MESSAGE===>>>\033[95m\033[92m\033[92m")
 
-    whatsapp = 'https://api.whatsapp.com/send?phone=' + new_number + '&text=' + text_sent
+    whatsapp = 'https://api.whatsapp.com/send?phone=' + new_number
     os.system("xdg-open " + whatsapp)
     os.system("clear")
     print("                    \033[1;32;40mDONE !!!!\033[1;32;40m")
