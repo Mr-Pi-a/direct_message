@@ -6,7 +6,7 @@ which is fast to use and super handy
 COMMANDS
 pkg install git -y
 pkg install python -y
-git clone 
+git clone https://github.com/Mr-Pi-a/direct_message.git
 cd direct
 python direct.py
 
