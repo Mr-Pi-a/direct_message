@@ -14,6 +14,7 @@ while True:
     q = input("\033[91m\n\nENTER OPTION ==>>>\033[91m\033[92m\033[92m ")
 
     while True:
+        print("\n\npress q to exit\n\n")
         number = input("\033[91mENTER THE PHONE NUMBER===>>>\033[91m\033[92m\033[92m ").replace(" ", "")
         if number=="q":
             exit()
@@ -22,7 +23,7 @@ while True:
             print("          \033[91m ENTER VALID 10 DIGIT NUMBER\n\n\033[91m")
         else:
             break
-
+    
     if (q == "india" or q == "1"):
         new_number = "+91" + number
     elif (q == "pakistan" or q == "2"):
