@@ -15,6 +15,8 @@ while True:
 
     while True:
         number = input("\033[91mENTER THE PHONE NUMBER===>>>\033[91m\033[92m\033[92m ").replace(" ", "")
+        if number=="q":
+            exit()
         if not len(number) == 10:
             print("\n          \033[91m Please enter a correct number ..!\033[91m\n")
             print("          \033[91m ENTER VALID 10 DIGIT NUMBER\n\n\033[91m")
@@ -33,6 +35,8 @@ while True:
         new_number = "+49" + number
     elif (q == "united kingdom" or q == "6"):
         new_number = "+44" + number
+    elif q=="q":
+        exit()
     elif (q == "custom" or q == "7"):
         custom_code = input("\033[91m\n\nENTER COUNTRY CODE==>>>\033[91m\033[92m\033[92m")
         if custom_code.startswith("+"):
