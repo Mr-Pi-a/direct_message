@@ -14,5 +14,7 @@ made for termux & kali linux only
 
 if you are using any application in phone open "for_phone.py" copy the source code and paste it in app
 
+if you are using windows use message.exe
+
 for any query or upgrade 
 mail to: aadarsh.official.xz@gmail.com
